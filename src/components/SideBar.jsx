@@ -47,6 +47,16 @@ const SideBar = () => {
             Stepper
           </Link>
         </li>
+        <li>
+          <Link to="/memory-game" className="block py-2 px-4 rounded hover:bg-gray-700">
+            Memory Game
+          </Link>
+        </li>
+        <li>
+          <Link to="/grid-lights" className="block py-2 px-4 rounded hover:bg-gray-700">
+            Grid Lights
+          </Link>
+        </li>
       </ul>
     </div>
     </>
