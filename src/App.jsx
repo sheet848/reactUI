@@ -10,6 +10,8 @@ import CountdownTimer from './components/CountTimer/CountdownTimer'
 import ToastBase from './components/Toast/ToastBase'
 import PasswordGenerator from './components/PasswordGenerator/PasswordGenerator'
 import Stepper from './components/Stepper/Stepper'
+import Memory from './components/Memory/Memory'
+import GridLights from './components/GridLights/GridLights'
 
 function App() {
 
@@ -33,6 +35,8 @@ function App() {
               <Route path='/countdown-timer' element={<CountdownTimer minutes={0.1} onComplete={handleFinish} />} />
               <Route path='/password-generator' element={<PasswordGenerator />} />
               <Route path='/stepper' element={<Stepper />} />
+              <Route path='/memory-game' element={<Memory />}/>
+              <Route path='/grid-lights' element={<GridLights />}/>
             </Routes>
           </div>
         </div>
