@@ -15,6 +15,10 @@ const Home = () => {
       <li>Password Generator</li>
       <li>Stepper</li>
       <li>Memory Game</li>
+      <li>Grid Lights</li>
+      <li>OTP Login</li>
+      <li>Excel</li>
+      <li>Drag and Drop</li>
     </ol>
     </>
   )

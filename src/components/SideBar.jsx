@@ -57,6 +57,21 @@ const SideBar = () => {
             Grid Lights
           </Link>
         </li>
+        <li>
+          <Link to="/otp-login" className="block py-2 px-4 rounded hover:bg-gray-700">
+            OTP Login
+          </Link>
+        </li>
+        <li>
+          <Link to="/excel" className="block py-2 px-4 rounded hover:bg-gray-700">
+            Excel
+          </Link>
+        </li>
+        <li>
+          <Link to="/drag-drop" className="block py-2 px-4 rounded hover:bg-gray-700">
+            Drag and Drop
+          </Link>
+        </li>
       </ul>
     </div>
     </>
