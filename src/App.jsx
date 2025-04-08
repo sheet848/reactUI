@@ -12,6 +12,9 @@ import PasswordGenerator from './components/PasswordGenerator/PasswordGenerator'
 import Stepper from './components/Stepper/Stepper'
 import Memory from './components/Memory/Memory'
 import GridLights from './components/GridLights/GridLights'
+import Both from './components/OTPLogin/Both'
+import Excel from './components/Excel/Excel'
+import DragDrop from './components/Dragdrop/DragDrop'
 
 function App() {
 
@@ -37,6 +40,9 @@ function App() {
               <Route path='/stepper' element={<Stepper />} />
               <Route path='/memory-game' element={<Memory />}/>
               <Route path='/grid-lights' element={<GridLights />}/>
+              <Route path='/otp-login' element={<Both />}/>
+              <Route path='/excel' element={<Excel />} />
+              <Route path='/drag-drop' element={<DragDrop />} />
             </Routes>
           </div>
         </div>
